@@ -1,0 +1,74 @@
+.head {
+    width: 25%;
+    font-size: 20px !important;
+    box-shadow: 0px 0px 7px #2e6da4;
+    font-family: cursive;
+    font-weight: bold;
+    animation-name: animate;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    text-shadow: 2px 2px 2px red;
+}
+@keyframes animate {
+    from {width: 25%;}
+    to {width: 35%;}
+    from {color: white}
+    to {color: #0063b9;}
+    from {background-color: #337ab7;}
+    to {background-color: azure;}
+    from {text-shadow: 2px 2px 2px red;}
+    to {text-shadow: 2px 2px 6px rgb(224, 81, 81);}
+}
+
+#footer {
+    background-color: azure;
+    color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    line-height: 3;
+    font-weight: bold;
+    border: 2px solid #0063b9;
+    box-shadow: 0px 0px 7px #0063b9;
+    color: #0063b9;
+    text-shadow: 2px 2px 6px rgb(224, 81, 81);
+}
+
+#input {
+    width: 20%;
+    background-color: #f1f1f9;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-family: monospace;
+    margin-left: 610px;
+    margin-top: 500px;
+    position: absolute;
+}
+
+#controls {
+    background-color: whitesmoke;
+    border: 2px solid silver;
+    width: 440px;
+    padding: 5px;
+}
+
+canvas {
+    border: 10px solid royalblue;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-color: crimson;
+    border-right-color: crimson;
+}
+
+.ctrl {
+    box-shadow: 0px 0px 10px grey;
+    width: 20%;
+    transition: 1s all ease;
+}
+.ctrl:hover{
+    background-color: lightgreen;
+    color: white;
+}
